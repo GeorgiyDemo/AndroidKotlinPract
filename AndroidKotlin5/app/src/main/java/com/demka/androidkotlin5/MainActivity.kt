@@ -31,9 +31,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onResume() {
-        //Log.d("Отработка onResume", "сработало")
+        Log.d("Отработка onResume", "сработало")
         super.onResume()
-        //mainTextInput.clear()
+        mainTextInput.setText("")
     }
 
 
